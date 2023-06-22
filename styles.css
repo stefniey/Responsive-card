@@ -6,6 +6,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Space Grotesk', sans-serif;
+    /* outline: 2px solid olivedrab; */
 }
 /* ### Neutral colors */
 :root{
@@ -38,7 +39,7 @@ body{
 }
 .left_section{
     min-height: 100vh;
-    width: 40%;
+    width: 20%;
     background-image: url(/images/bg-main-desktop2.png);
     background-position: center center;
     background-size: cover;
@@ -237,6 +238,7 @@ form button{
     .front_card,.front_card img,.back_card,.back_card img{
         width: 280px;
     }
+
     .left_section{
         width: 100%;
         min-height: 30vh;
@@ -248,6 +250,7 @@ form button{
         top: 60%;
         gap: 0;
     }
+    
     .back_card{
         transform: translateY(70px);
     }
@@ -256,7 +259,19 @@ form button{
     }
     .right_section{
         margin-top: 6rem;
+        width: 20%;
     }
+
+    input{
+        width: 95%;
+    }
+    button{
+        width: 95%;
+    }
+    #card_cvc{
+        width: 170px;
+    }
+    
 
 
 }
